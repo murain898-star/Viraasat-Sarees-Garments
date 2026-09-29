@@ -1,11 +1,45 @@
-<div align="center">
+# Viraasat Sarees & Garments — Vite React Web App
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A luxury Indian ethnic wear digital storefront for handcrafted Banarasi, Kanjivaram, Organza sarees, and bridal lehengas with Google sign-in and full shopping checkout.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 How to Deploy on Vercel (Vercel पर डिप्लॉय करने का तरीका)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is pre-configured and 100% ready for Vercel deployment with Vite.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Method 1: Deploy with GitHub (सबसे आसान तरीका)
+1. Push this repository to your **GitHub** account.
+2. Go to [vercel.com](https://vercel.com) and log in.
+3. Click **"Add New..."** → **"Project"**.
+4. Import your GitHub repository.
+5. Vercel will automatically detect:
+   - **Framework Preset**: `Vite`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+6. Click **Deploy**! Your website will be live in ~30 seconds with a free `.vercel.app` domain.
 
-</div>
+---
+
+### Method 2: Deploy using Vercel CLI
+If you have Vercel CLI installed on your computer:
+```bash
+npm i -g vercel
+vercel
+```
+Follow the interactive prompts and select default settings.
+
+---
+
+## 🛠️ Local Development Commands
+```bash
+# Install dependencies
+npm install
+
+# Start Vite dev server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build locally
+npm run preview
+```
